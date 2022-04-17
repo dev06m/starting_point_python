@@ -8,6 +8,9 @@ class Coffee:
     def set_name(selected_name):
         name = selected_name
 
-a = Coffee()
-a.set_name()
-print(a.name)
+
+
+
+coffeMachine = Coffee()
+coffeMachine.set_name()
+print(coffeMachine.name)
